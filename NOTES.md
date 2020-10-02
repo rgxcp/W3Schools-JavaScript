@@ -24,8 +24,14 @@
    Menggunakan `console.log()` (untuk debugging)
 
 # Statements
-1. JavaScript memperbolehkan tidak menggunakan `;` pada akhir statement
-   Tapi dianjurkan untuk digunakan 
+1. JavaScript memperbolehkan tidak menggunakan `;` pada akhir statement, tapi dianjurkan untuk digunakan
+
+# Variables
+1. Variable yang sudah di-declare dan di-assign, ketika di-declare lagi, value-nya tidak hilang
+2. Variable yang menggunakan keyword `_` digunakan untuk menandakan private variable
+
+# Operators
+1. Karena JavaScript dynamic, untuk membandingkan value sekaligus tipe dari variable menggunakan `===`
 
 # Last Chapter
-https://www.w3schools.com/js/js_variables.asp
+https://www.w3schools.com/js/js_datatypes.asp
