@@ -22,3 +22,10 @@
    Menggunakan `document.write()` (hanya untuk testing)
    Menggunakan `window.alert()`
    Menggunakan `console.log()` (untuk debugging)
+
+# Statements
+1. JavaScript memperbolehkan tidak menggunakan `;` pada akhir statement
+   Tapi dianjurkan untuk digunakan 
+
+# Last Chapter
+https://www.w3schools.com/js/js_variables.asp
