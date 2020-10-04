@@ -33,5 +33,24 @@
 # Operators
 1. Karena JavaScript dynamic, untuk membandingkan value sekaligus tipe dari variable menggunakan `===`
 
+# Data Types
+1. Dalam JavaScript, `null` termasuk objek
+
+# Events
+1. Beberapa events dalam HTML
+   `onchange`
+   `onclick`
+   `onmouseover`
+   `onmouseout`
+   `onkeydown`
+   `onload`
+2. Contoh penggunaan
+   `<button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>`
+
+# Strings
+1. Untuk memasukkan petik dalam string yang terdapat petik yang sama menggunakan escape character
+   `const x = "We are the so-called \"Vikings\" from the north.";`
+   `const x = 'It\'s alright.';`
+
 # Last Chapter
-https://www.w3schools.com/js/js_datatypes.asp
+https://www.w3schools.com/js/js_string_methods.asp
