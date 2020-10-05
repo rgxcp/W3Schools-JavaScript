@@ -52,5 +52,12 @@
    `const x = "We are the so-called \"Vikings\" from the north.";`
    `const x = 'It\'s alright.';`
 
+# Numbers
+1. Angka tanpa koma atau eksponen, hanya akurat sampai 15 digit
+2. Maksimum angka desimal adalah 17 digit
+3. Angka di dalam string bisa melakukan operasi kurang, kali, atau bagi, tapi tidak bisa operasi tambah
+4. Dalam JavaScript, `NaN` termasuk number
+5. Dalam JavaScript, `Infinity` termasuk number
+
 # Last Chapter
-https://www.w3schools.com/js/js_string_methods.asp
+https://www.w3schools.com/js/js_number_methods.asp

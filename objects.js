@@ -1,9 +1,9 @@
 const person = {
-    "firstName": "Rommy",
-    "lastName": "Gustiawan",
-    "fullName": function () {
-        return `${this.firstName} ${this.lastName}`; // `this` mengacu pada properti dalam objek person
-    }
+  firstName: "Rommy",
+  lastName: "Gustiawan",
+  fullName: function () {
+    return `${this.firstName} ${this.lastName}`; // `this` mengacu pada properti dalam objek person
+  },
 };
 
 console.log(`First Name : ${person.firstName}`);
