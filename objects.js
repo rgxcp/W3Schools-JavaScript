@@ -2,7 +2,7 @@ const person = {
   firstName: "Rommy",
   lastName: "Gustiawan",
   fullName: function () {
-    return `${this.firstName} ${this.lastName}`; // `this` mengacu pada properti dalam objek person
+    return `${this.firstName} ${this.lastName}`; // `this` mengacu pada properti dalam object person
   },
 };
 

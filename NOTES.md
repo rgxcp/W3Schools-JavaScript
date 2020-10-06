@@ -34,7 +34,7 @@
 1. Karena JavaScript dynamic, untuk membandingkan value sekaligus tipe dari variable menggunakan `===`
 
 # Data Types
-1. Dalam JavaScript, `null` termasuk objek
+1. Dalam JavaScript, `null` termasuk object
 
 # Events
 1. Beberapa events dalam HTML
@@ -59,5 +59,12 @@
 4. Dalam JavaScript, `NaN` termasuk number
 5. Dalam JavaScript, `Infinity` termasuk number
 
+# Arrays
+1. Dalam JavaScript, array termasuk object (spesial)
+2. Dalam array, index menggunakan angka
+3. Dalam object, index menggunakan kata
+4. Karena array termasuk object, untuk mengetahui apakah sebuah variable itu array menggunakan method `Array.isArray()`
+5. Bisa juga menggunakan `namaVariable instanceof Array`
+
 # Last Chapter
-https://www.w3schools.com/js/js_number_methods.asp
+https://www.w3schools.com/js/js_array_sort.asp
