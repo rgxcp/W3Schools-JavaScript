@@ -66,5 +66,12 @@
 4. Karena array termasuk object, untuk mengetahui apakah sebuah variable itu array menggunakan method `Array.isArray()`
 5. Bisa juga menggunakan `namaVariable instanceof Array`
 
+# Sorting Arrays
+1. Secara default, array akan dianggap sebagai string
+   Maka dari itu, jika array berupa number, hasil `sort()` akan tidak sesuai
+   Mengatasinya, di dalam param `sort()` diberikan method untuk meng-compare dua index sebelum di urutkan
+2. Tidak ada method untuk mencari nilai terkecil/terbesar dalam array
+   Mengatasinya, array di sort terlebih dahulu, index ke-0 menjadi terkecil dan sebaliknya
+
 # Last Chapter
-https://www.w3schools.com/js/js_array_sort.asp
+https://www.w3schools.com/js/js_array_iteration.asp
