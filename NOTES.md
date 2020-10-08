@@ -73,5 +73,21 @@
 2. Tidak ada method untuk mencari nilai terkecil/terbesar dalam array
    Mengatasinya, array di sort terlebih dahulu, index ke-0 menjadi terkecil dan sebaliknya
 
+# Array Iteration Methods
+1. `map()` digunakan untuk menciptakan array baru
+   `map()` tidak mengeksekusi method dalam index tanpa value
+2. `filter()` digunakan untuk menciptakan array baru yang memenuhi kondisi
+3. `reduce()` digunakan untuk memadatkan index dalam array menjadi satu
+   Secara default memproses dari kiri ke kanan
+   Untuk sebaliknya, menggunakan `reduceRight()`
+4. `every()` digunakan untuk me-return boolean apakah semua index dalam array memenuhi kondisi
+5. `some()` kebalikan dari `every()`
+6. `indexOf()` digunakan untuk mencari sebuah index dalam array ada di posisi ke berapa
+   Jika tidak ada, akan me-return `-1`
+   Jika ada lebih dari satu, akan me-return yang paling pertama
+7. `lastIndexOf()` kebalikan dari `indexOf()`
+8. `find()` digunakan untuk me-return value pertama dalam array yang memenuhi kondisi
+9. `findIndex()` digunakan untuk me-return index pertama dalam array yang memenuhi kondisi
+
 # Last Chapter
-https://www.w3schools.com/js/js_array_iteration.asp
+https://www.w3schools.com/js/js_dates.asp
