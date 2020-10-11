@@ -1,4 +1,5 @@
 # Introduction
+
 1. JavaScript bisa digunakan untuk mengubah elemen konten HTML
    `document.getElementById("demo").innerHTML = "Hello JavaScript"`
    Mengubah value atribut elemen HTML
@@ -9,6 +10,7 @@
    `document.getElementById("demo").style.display = "block/none"`
 
 # Where To
+
 1. JavaScript diapit dengan menggunakan tag `<script>`
 2. JavaScript bisa diletakkan dalam tag `<head>` atau `<body>` dan file eksternal
 3. Pemanggilan JavaScript dengan file eksternal dalam folder website aktif
@@ -17,6 +19,7 @@
    `<script src="myScript1.js"></script>`
 
 # Output
+
 1. JavaScript bisa menampilkan data dengan cara berbeda-beda
    Menggunakan `innerHTML`
    Menggunakan `document.write()` (hanya untuk testing)
@@ -24,19 +27,24 @@
    Menggunakan `console.log()` (untuk debugging)
 
 # Statements
+
 1. JavaScript memperbolehkan tidak menggunakan `;` pada akhir statement, tapi dianjurkan untuk digunakan
 
 # Variables
+
 1. Variable yang sudah di-declare dan di-assign, ketika di-declare lagi, value-nya tidak hilang
 2. Variable yang menggunakan keyword `_` digunakan untuk menandakan private variable
 
 # Operators
+
 1. Karena JavaScript dynamic, untuk membandingkan value sekaligus tipe dari variable menggunakan `===`
 
 # Data Types
+
 1. Dalam JavaScript, `null` termasuk object
 
 # Events
+
 1. Beberapa events dalam HTML
    `onchange`
    `onclick`
@@ -48,11 +56,13 @@
    `<button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>`
 
 # Strings
+
 1. Untuk memasukkan petik dalam string yang terdapat petik yang sama menggunakan escape character
    `const x = "We are the so-called \"Vikings\" from the north.";`
    `const x = 'It\'s alright.';`
 
 # Numbers
+
 1. Angka tanpa koma atau eksponen, hanya akurat sampai 15 digit
 2. Maksimum angka desimal adalah 17 digit
 3. Angka di dalam string bisa melakukan operasi kurang, kali, atau bagi, tapi tidak bisa operasi tambah
@@ -60,6 +70,7 @@
 5. Dalam JavaScript, `Infinity` termasuk number
 
 # Arrays
+
 1. Dalam JavaScript, array termasuk object (spesial)
 2. Dalam array, index menggunakan angka
 3. Dalam object, index menggunakan kata
@@ -67,6 +78,7 @@
 5. Bisa juga menggunakan `namaVariable instanceof Array`
 
 # Sorting Arrays
+
 1. Secara default, array akan dianggap sebagai string
    Maka dari itu, jika array berupa number, hasil `sort()` akan tidak sesuai
    Mengatasinya, di dalam param `sort()` diberikan method untuk meng-compare dua index sebelum di urutkan
@@ -74,6 +86,7 @@
    Mengatasinya, array di sort terlebih dahulu, index ke-0 menjadi terkecil dan sebaliknya
 
 # Array Iteration Methods
+
 1. `map()` digunakan untuk menciptakan array baru
    `map()` tidak mengeksekusi method dalam index tanpa value
 2. `filter()` digunakan untuk menciptakan array baru yang memenuhi kondisi
@@ -89,5 +102,21 @@
 8. `find()` digunakan untuk me-return value pertama dalam array yang memenuhi kondisi
 9. `findIndex()` digunakan untuk me-return index pertama dalam array yang memenuhi kondisi
 
+# Dates
+
+1. Penghitungan bulan, jam, dan hari dalam JavaScript di mulai dari `0`
+2. Secara otomatis, `Date()` akan di ubah menjadi string
+
+# Date Get Methods
+
+1. Penghitungan hari dalam JavaScript di mulai dari hari `Sunday` (Minggu)
+2. Method get yang tersedia dalam objek `Date()` juga dapat menggunakan method format `UTC`
+
+# Date Set Methods
+
+1. Method set yang tersedia dalam objek `Date()` akan me-return dalam format milidetik (lengkap)
+2. Jika input param melebihi batas, maka akan disesuaikan secara otomatis
+
 # Last Chapter
-https://www.w3schools.com/js/js_dates.asp
+
+https://www.w3schools.com/js/js_math.asp
