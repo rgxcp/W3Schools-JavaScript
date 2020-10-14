@@ -117,6 +117,24 @@
 1. Method set yang tersedia dalam objek `Date()` akan me-return dalam format milidetik (lengkap)
 2. Jika input param melebihi batas, maka akan disesuaikan secara otomatis
 
+# Random
+
+1. Nilai yang di-return selalu lebih kecil dari `1` (rentang 0 - 1)
+
+# Booleans
+
+1. Variable yang ber-"value" bernilai `true`
+2. Variable yang tidak ber-"value" bernilai `false`
+
+# Comparisons
+
+1. JavaScript mendukung `ternary` operator
+
+# Switch
+
+1. Case dalam switch yang memiliki logic sama dapat di-`omit` langsung
+2. Switch menggunakan operator `===` untuk perbandingan
+
 # Last Chapter
 
-https://www.w3schools.com/js/js_math.asp
+https://www.w3schools.com/js/js_loop_for.asp
