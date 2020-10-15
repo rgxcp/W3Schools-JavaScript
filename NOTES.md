@@ -135,6 +135,29 @@
 1. Case dalam switch yang memiliki logic sama dapat di-`omit` langsung
 2. Switch menggunakan operator `===` untuk perbandingan
 
+# Loop For
+
+1. Jenis loop yang ada dalam JavaScript
+   `for`
+   `for/in`
+   `for/of`
+   `while`
+   `do/while`
+2. Tiga statement dalam loop `for` bisa di-`omit`
+
+# Loop While
+
+1. Loop `while` hampir sama dengan loop `for` (statement pertama dan kedua di-`omit`)
+
+# Break Continue
+
+1. `break` digunakan untuk keluar dari
+2. `continue` digunakan untuk loncat ke awal
+
+# Type Conversion
+
+# Bitwise
+
 # Last Chapter
 
-https://www.w3schools.com/js/js_loop_for.asp
+https://www.w3schools.com/js/js_type_conversion.asp
