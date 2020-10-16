@@ -156,8 +156,47 @@
 
 # Type Conversion
 
-# Bitwise
+1. Data Types
+   `string`
+   `number`
+   `boolean`
+   `object`
+   `function`
+   `null`
+   `undefined`
+2. Object Types
+   `Object`
+   `Date`
+   `Array`
+   `String`
+   `Number`
+   `Boolean`
+3. `NaN` -> number
+   `Array` -> objek
+   `Date` -> objek
+   `Null` -> objek
+   Variable yang belum di-definisikan -> objek
+   Variable yang belum di-assign -> objek
+
+# Errors
+
+1. Pattern try/catch
+   `try` -> `catch` -> `throw` -> `finally`
+2. Error dalam blok `catch` memiliki 2 property, `name` dan `message`
+3. Tipe error
+   `EvalError` (versi lama)
+   `RangeError`
+   `ReferenceError`
+   `SyntaxError` (versi baru)
+   `TypeError`
+   `URIError`
+
+# Strict Mode
+
+1. `"use strict"` digunakan untuk mengeksekusi kode dalam mode `strict`
+   Artinya program tidak bisa menggunakan variable yang belum di-declare dan beberapa hal lainnya
+   Tujuannya untuk mengatasi kelemahan fitur `hoisting` dan membuat program lebih aman
 
 # Last Chapter
 
-https://www.w3schools.com/js/js_type_conversion.asp
+https://www.w3schools.com/js/js_this.asp
