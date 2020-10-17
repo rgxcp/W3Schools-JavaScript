@@ -197,6 +197,23 @@
    Artinya program tidak bisa menggunakan variable yang belum di-declare dan beberapa hal lainnya
    Tujuannya untuk mengatasi kelemahan fitur `hoisting` dan membuat program lebih aman
 
+# this Keyword
+
+1. `this` menandakan objek yang dimilikinya
+
+# Let
+
+1. Bisa di-declare terlebih dahulu & di-assign kemudian dan bisa di-assign kembali
+
+# Const
+
+1. Harus di-declare & di-assign terlebih dahulu dan tidak bisa di-assign kembali
+2. Khusus untuk object dan array, property/element-nya bisa di ubah dan tambah
+
+# Arrow Function
+
+1. Digunakan untuk mempersingkat pendefinisian function
+
 # Last Chapter
 
-https://www.w3schools.com/js/js_this.asp
+https://www.w3schools.com/js/js_debugging.asp
