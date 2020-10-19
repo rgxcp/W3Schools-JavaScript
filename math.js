@@ -6,6 +6,7 @@ console.log(Math.round(3.14));
 
 // Pow (pangkat dua)
 console.log(Math.pow(5, 2));
+console.log(5 ** 2);
 
 // Square Root (akar)
 console.log(Math.sqrt(25));

@@ -5,6 +5,10 @@ console.log(a.toString());
 console.log(a.valueOf()); // mengubah object number menjadi primitive
 console.log(b.toFixed(0)); // membulatkan angka, param bisa 0
 console.log(b.toPrecision(2)); // membulatkan angka, param tidak bisa 0
+console.log(Number.isInteger(b));
+console.log(Number.isSafeInteger(b));
+console.log(isFinite(5 / 0));
+console.log(isNaN("Hello"));
 
 // Converting Variables to Numbers
 console.log(Number("5.5")); // jika tidak bisa diubah, me-return `NaN`

@@ -193,13 +193,19 @@
    `  "Hello, World!"`
 
 # Best Practices
-1. Disarankan untuk menghindari variable global, keyword `new`, dan keyword `eval()`
+1. Disarankan untuk menghindari variable global, keyword `new`, dan method `eval()`
 2. Disarankan untuk langsung menginisialisasi variable
 3. Gunakan operator `===`
 4. Tambahkan default parameter agar tidak `undefined`
 5. Gunakan keyword `default` dalam `switch` walaupun yakin tidak digunakan
 
-# Mistakes
+# Performance
+1. Pindahkan deklarasi variable dalam loop `for` ke luar
+2. Jangan simpan value yang hanya digunakan sekali dalam variable
+3. Hindari penggunaan keyword `with`
+
+# JSON
+1. Key dalam JSON harus menggunakan double quote
 
 # Last Chapter
-https://www.w3schools.com/js/js_performance.asp
+https://www.w3schools.com/js/js_validation.asp

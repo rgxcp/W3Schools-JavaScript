@@ -32,6 +32,7 @@ console.log(message.trim()); // menghapus white space di awal dan akhir
 
 // Extracting String Characters
 console.log(name.charAt(6));
+console.log(name[6]);
 console.log(name.charCodeAt(6)); // tipe code dari char tersebut
 console.log(name[6]); // hanya digunakan jika tipe-nya array
 
