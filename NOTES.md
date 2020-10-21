@@ -207,5 +207,14 @@
 # JSON
 1. Key dalam JSON harus menggunakan double quote
 
+# Object Definitions
+1. Hampir semua hal dalam JavaScript adalah objek (kecuali tipe data primitive)
+2. JSON dalam JavaScript sama seperti:
+   `Associative arrays` di PHP
+   `Dictionaries` di Python
+   `Hash` tables di C
+   `Hash maps` di Java
+   `Hashes` di Ruby dan Perl
+
 # Last Chapter
-https://www.w3schools.com/js/js_validation.asp
+https://www.w3schools.com/js/js_object_display.asp
